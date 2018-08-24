@@ -72,10 +72,17 @@ html, body {
   }
 
   // This is the logo at the top of the ToC
+
+  .logo-wrapper {
+    background: #5d69c8;
+    padding: 20px 0 15px 0;
+  }
   .logo {
     display: block;
     max-width: 100%;
     margin-bottom: $logo-margin;
+
+    margin: 0px auto;
   }
 
   &>.search {
